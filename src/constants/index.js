@@ -15,7 +15,7 @@ export const ABOUT_TEXT3 = `I am eager to connect with you and welcome any feedb
 
 export const EXPERIENCES = [
   {
-    year: "March 2025 - June 2025",
+    year: "March 2025 - July 2025",
     role: "Research Assistant (Full-Time)",
     company: "University of Asia Pacific",
     description: `Conducting research on Convolution Transformer based eye disease detection utilizing Contrastive Learning and attention mechanism, including literature review, data augmentation, experimenting with deep learning and computer vision models, implementing a novel solution, and writing reports.`,
