@@ -18,7 +18,7 @@ const Education = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
+              className="w-fll lg:w-1/4">
               <h6 className="mb-4 font-bold text-purple-100">{edu.degree}</h6>
               <h6 className="mb-2 text-sm text-neutral-400">{edu.institution}</h6>
               <h6 className="mb-2 text-sm text-neutral-400">{edu.other}</h6>
