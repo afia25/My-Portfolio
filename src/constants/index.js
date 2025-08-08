@@ -56,7 +56,7 @@ export const PUBLICATIONS = [
     role: "First Author",
     scopus_index: "Q1 | SCImago Index: Q1", 
     impact_factor: "5.7 | CiteScore: 12.6",
-    submitted_paper: "27 March, 2025"
+    submitted_paper: "27 July, 2025"
   },
 
 ];
