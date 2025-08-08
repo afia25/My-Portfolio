@@ -13,7 +13,7 @@ const Education = () => {
       <h2 className="my-20 text-center text-4xl">Education</h2>
       <div>
         {displayedEducation.map((edu, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center lg:gap-x-16">  
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center lg:gap-x-20">  
             <motion.div 
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
