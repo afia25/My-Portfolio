@@ -186,7 +186,7 @@ const Technologies = () => {
             <a href="https://www.eclipse.org/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
-            variants={iconVariants(4)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4 flex items-center justify-center h-[112px] w-[112px]">  
@@ -230,7 +230,7 @@ const Technologies = () => {
             <a href="https://www.oracle.com/database/technologies/appdev/sql.html" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
-            variants={iconVariants(4)}
+            variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4 flex items-center justify-center h-[112px] w-[112px]">  
