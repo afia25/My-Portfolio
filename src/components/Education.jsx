@@ -13,12 +13,12 @@ const Education = () => {
       <h2 className="my-20 text-center text-4xl">Education</h2>
       <div>
         {displayedEducation.map((edu, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center lg:gap-x-12">  
             <motion.div 
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-fll lg:w-1/4">
+              className="w-full lg:w-1/4">
               <h6 className="mb-4 font-bold text-purple-100">{edu.degree}</h6>
               <h6 className="mb-2 text-sm text-neutral-400">{edu.institution}</h6>
               <h6 className="mb-2 text-sm text-neutral-400">{edu.other}</h6>
