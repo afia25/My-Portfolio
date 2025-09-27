@@ -177,11 +177,19 @@ export const AWARDS = [
 
 export const PROJECTS = [
   {
+    {
+    title: "CRUD App using React, Node.js, Tailwind CSS, Express & PostgreSQL",
+    image: project8,
+    description:   
+      "A CRUD-based web application that allows users to create, view, update, and delete records. It includes functionalities such as data entry forms, dynamic record display, real-time editing, and deletion with confirmation message.",
+    technologies: ["React", "Node.js", "Tailwind CSS", "Express", "PostgreSQL", "JavaScript"],
+    link: "https://github.com/afia25/Create-read-update-delete-mvt-",
+  },
     title: "Crowdfunding Platform with Integrated Software Testing",
     image: project2,
     description: 
       "A smart blockchain-based crowdfunding platform (Web Application) can become a source of money for a project by asking many contributors to donate a small amount to it individually. People using this platform can crowdfund for just about anything.",
-    technologies: ["Python", "Django", "MySQL", "Blockchain", "Selenium", "HTML", "CSS"],
+    technologies: ["Python", "Django", "MySQL", "Selenium", "HTML", "CSS"],
     link: "https://github.com/afia25/Crowdfunding-Platform-with-Integrated-Software-Testing",
   },
   {
@@ -223,14 +231,6 @@ export const PROJECTS = [
       "A database system using SQL that manages patient records, doctor details, appointments, and medical histories. It includes multiple tables with relations among them to streamline healthcare operations, ensuring efficient access to critical medical information.",
     technologies: ["MySQL", "XAMPP", "ER Diagram Tool"],
     link: "https://github.com/afia25/Healthcare-Information-Management-System-using-SQL",
-  },
-  {
-    title: "Create Read Update Delete MVT",
-    image: project8,
-    description:   
-      "A CRUD-based web application using Django’s MVT architecture that allows users to create, view, update, and delete records. It includes functionalities such as data entry forms, dynamic record display, real-time editing, and deletion with confirmation message.",
-    technologies: ["JavaScript", "MySQL", "Python", "Django", "HTML", "CSS"],
-    link: "https://github.com/afia25/Create-read-update-delete-mvt-",
   },
 ];
 
