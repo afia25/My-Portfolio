@@ -183,7 +183,7 @@ export const PROJECTS = [
     description:   
       "A CRUD-based web application that allows users to create, view, update, and delete records. It includes functionalities such as data entry forms, dynamic record display, real-time editing, and deletion with confirmation message.",
     technologies: ["React", "Node.js", "Tailwind CSS", "Express", "PostgreSQL", "JavaScript"],
-    link: "https://github.com/afia25/Create-read-update-delete-mvt-",
+    link: "https://github.com/afia25/React-Tailwind-Node-PostgreSQL-Express-CRUD",
   },
     title: "Crowdfunding Platform with Integrated Software Testing",
     image: project2,
