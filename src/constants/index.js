@@ -177,7 +177,6 @@ export const AWARDS = [
 
 export const PROJECTS = [
   {
-    {
     title: "CRUD App using React, Node.js, Tailwind CSS, Express & PostgreSQL",
     image: project8,
     description:   
@@ -185,6 +184,7 @@ export const PROJECTS = [
     technologies: ["React", "Node.js", "Tailwind CSS", "Express", "PostgreSQL", "JavaScript"],
     link: "https://github.com/afia25/React-Tailwind-Node-PostgreSQL-Express-CRUD",
   },
+  {
     title: "Crowdfunding Platform with Integrated Software Testing",
     image: project2,
     description: 
