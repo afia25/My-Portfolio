@@ -217,12 +217,12 @@ export const PROJECTS = [
     link: "https://github.com/afia25/Employee-Management-System-using-Java",
   },
   {
-    title: "Computer Vision Based Fitness Pose Evaluation",
+    title: "Computer Vision Based Pose Estimation",
     image: project3,
     description:   
-      "A real-time vision-based system was developed to detect human joints from videos and evaluate fitness using pose estimation techniques, helping users perform exercises correctly by comparing predicted postures with ideal reference models.",
+      "A real-time vision-based system was developed to detect human joints from videos and evaluate pose using pose estimation techniques, helping users perform exercises correctly by comparing predicted postures with ideal reference models.",
     technologies: ["Computer Vision", "Machine Learning", "Python", "OpenCV"],
-    link: "https://github.com/afia25/Computer-Vision-Based-Fitness-Pose-Evaluation",
+    link: "https://github.com/afia25/Computer-Vision-Based-Pose-Estimation",
   },
   {
     title: "Healthcare Information Management System using SQL",
