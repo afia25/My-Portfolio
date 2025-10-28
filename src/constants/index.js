@@ -14,26 +14,12 @@ export const ABOUT_TEXT2 = `In my free time, I enjoy reading, exercising, and sp
 export const ABOUT_TEXT3 = `I am eager to connect with you and welcome any feedback that can help me improve further. Let's engage in a conversation about what makes each of us unique and explore opportunities for growth and collaboration.`;
 
 export const EXPERIENCES = [
-  {
-    year: "March 2025 - July 2025",
-    role: "Research Assistant (Full-Time)",
-    company: "University of Asia Pacific",
-    description: `Conducting research on Convolution Transformer based eye disease detection utilizing Contrastive Learning and attention mechanism, including literature review, data augmentation, experimenting with deep learning and computer vision models, implementing a novel solution, and writing reports.`,
-    technologies: ["Deep Learning", "Computer Vision", "Contrastive Learning", "Vision Transformer", "Attention Mechanism"],
-  },
-  {
-    year: "January 2024 - July 2024\nand July 2024 - January 2025",
-    role: "Teaching Assistant (Full-Time)",
-    company: "University of Asia Pacific.",
-    description: `Assisting teacher in conducting labs, teaching undergraduate-level lab courses (C Programming, Java, Algorithms, DSA), helping students in debugging code, preparing lab questions, and some lab assignments and lab materials, evaluating lab assignments, conducting viva assessments for students.`,
-    technologies: ["Computer Fundamentals", "Algorithms", "Java", "Data Structures"],
-  },
   {  
-    year: "May 2023 - September 2023",
-    role: "Research Intern (Full-Time)",
-    company: "Advanced Machine Intelligence Research Lab",
-    description: `Conducting literature review on human action detection, data preprocessing, writing reports and experimenting with deep learning and machine learning models.`,
-    technologies: ["Machine Learning", "Deep Learning", "Human Action Recognition"],
+    year: "July 2025 - Present",
+    role: "Instructor at the UAP Software Development Club",
+    company: "University of Asia Pacific",
+    description: `Conducting lectures and sessions on programming languages (Python, Java), Data Structures and Algorithms (DSA), problem solving, and version control (GitHub). Conducting lectures on Web & App Development (JavaScript, Django, SQL). Mentoring software projects of students. Helping organize programming contests and software exhibitions. Designing problem statements for DSA. Guiding students in preparing portfolios.`,
+    technologies: ["Web & App Development (Python, Django, SQL, Github)", "Programming Languages", "DSA", "Problem Solving"],
   },
 ];
 
