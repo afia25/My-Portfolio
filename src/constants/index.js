@@ -167,7 +167,7 @@ export const PROJECTS = [
     image: project8,
     description:   
       "A CRUD-based web application that allows users to create, view, update, and delete records. It includes functionalities such as data entry forms, dynamic record display, real-time editing, and deletion with confirmation message.",
-    technologies: ["React", "Node.js", "Tailwind CSS", "Express", "PostgreSQL", "JavaScript"],
+    technologies: ["React", "Node.js", "Tailwind CSS", "Express.js", "PostgreSQL", "JavaScript"],
     link: "https://github.com/afia25/React-Tailwind-Node-PostgreSQL-Express-CRUD",
   },
   {
@@ -175,7 +175,7 @@ export const PROJECTS = [
     image: project2,
     description: 
       "A smart blockchain-based crowdfunding platform (Web Application) can become a source of money for a project by asking many contributors to donate a small amount to it individually. People using this platform can crowdfund for just about anything.",
-    technologies: ["Python", "Django", "MySQL", "Selenium", "HTML", "CSS"],
+    technologies: ["Python", "Django", "SQL", "Selenium", "HTML", "CSS"],
     link: "https://github.com/afia25/Crowdfunding-Platform-with-Integrated-Software-Testing",
   },
   {
@@ -183,7 +183,7 @@ export const PROJECTS = [
     image: project1,
     description: 
       "A Machine Learning Based Diabetes Prediction and Doctor Appointment System predicts diabetes risk using patient data and allows users to book doctor appointments. Features include user registration, health data input, prediction results, appointment scheduling, cancelling appointment.",
-    technologies: ["Machine Learning", "Django", "MySQL", "Python", "HTML", "CSS"],
+    technologies: ["Machine Learning", "Django", "SQL", "Python", "HTML", "CSS"],
     link: "https://github.com/afia25/Machine-Learning-Based-Diabetes-Prediction-and-Doctor-Appointment-System",
   },
   {
@@ -191,7 +191,7 @@ export const PROJECTS = [
     image: project4,
     description: 
       "An Inventory Management System with Automated Web Testing streamlines product tracking, stock updates, supplier management, and sales monitoring. The system ensures accuracy and efficiency through real-time inventory control and automated testing to validate core functionalities across workflows.",
-    technologies: ["Selenium", "MySQL", "Python", "Django", "HTML", "CSS"],
+    technologies: ["Selenium", "SQL", "Python", "Django", "HTML", "CSS"],
     link: "https://github.com/afia25/Inventory-Management-System-with-Automated-Web-Testing-using-Python-and-Selenium",
   },
   {
@@ -199,7 +199,7 @@ export const PROJECTS = [
     image: project6,
     description:   
       "An Employee Management System using Java manages employee records, attendance, departments, and salary details. It enables functionalities like employee registration, role assignment, performance tracking, and payroll processing, ensuring efficient workforce management.",
-    technologies: ["Java", "Object-Oriented Programming (OOP)", "C++", "CSS"],
+    technologies: ["Java", "JavaFX", "Object-Oriented Programming (OOP)", "C++", "CSS"],
     link: "https://github.com/afia25/Employee-Management-System-using-Java",
   },
   {
@@ -215,7 +215,7 @@ export const PROJECTS = [
     image: project7,
     description: 
       "A database system using SQL that manages patient records, doctor details, appointments, and medical histories. It includes multiple tables with relations among them to streamline healthcare operations, ensuring efficient access to critical medical information.",
-    technologies: ["MySQL", "XAMPP", "ER Diagram Tool"],
+    technologies: ["SQL", "XAMPP", "ER Diagram Tool"],
     link: "https://github.com/afia25/Healthcare-Information-Management-System-using-SQL",
   },
 ];
