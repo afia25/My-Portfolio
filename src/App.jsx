@@ -23,7 +23,7 @@ const App = () => {
       <Hero />
       <About />
       <Technologies /> 
-      {/* <Experience />    did NOT change anything related to exp anywhere. only commented out exp here. */}
+      <Experience />    {/*  did NOT change anything related to exp anywhere. only commented out exp here. */}
       <Education />
       <Awards />
       <Programming />
