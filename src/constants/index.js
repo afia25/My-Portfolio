@@ -135,42 +135,42 @@ export const EDUCATION = [
 export const AWARDS = [
   {
     year: "First Year First Semester",
-    description: `Dean's Honour Award Fall - 20`,
+    description: `Dean's Honour Award Spring - 21`,
   },
 
   {
     year: "First Year Second Semester",
-    description: `Vice Chancellor's Honor Award Spring - 21`,
+    description: `Vice Chancellor's Honor Award Fall - 21`,
   },
 
   {
     year: "Second Year First Semester",
-    description: `Dean's Honour Award Fall - 21`,
-  },
-
-  {
-    year: "Second Year Second Semester",
     description: `Dean's Honour Award Spring - 22`,
   },
 
   {
-    year: "Third Year First Semester",
+    year: "Second Year Second Semester",
     description: `Dean's Honour Award Fall - 22`,
   },
 
   {
-    year: "Third Year Second Semester",
+    year: "Third Year First Semester",
     description: `Dean's Honour Award Spring - 23`,
   },
 
   {
-    year: "Fourth Year First Semester",
+    year: "Third Year Second Semester",
     description: `Dean's Honour Award Fall - 23`,
   },
 
   {
+    year: "Fourth Year First Semester",
+    description: `Dean's Honour Award Spring - 24`,
+  },
+
+  {
     year: "Fourth Year Second Semester",
-    description: `Vice Chancellor's Honor Award Spring - 24`,
+    description: `Vice Chancellor's Honor Award Fall - 24`,
   },
 
 ];
