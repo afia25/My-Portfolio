@@ -109,7 +109,7 @@ export const PROGRAMMING = [
 export const EDUCATION = [
   {
     GPA: `CGPA: 3.86 / 4.00 (2nd Position in batch)`,
-    year: `Passing Year: 2025`,
+    year: `Passing Year: June, 2025`,
     degree: `B.Sc in Computer Science and Engineering`,
     institution: `University of Asia Pacific`,
     other: `Duration: 4 years`,
