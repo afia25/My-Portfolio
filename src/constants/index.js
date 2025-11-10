@@ -35,14 +35,14 @@ export const PUBLICATIONS = [
     link: "https://link.springer.com/article/10.1007/s42979-024-03556-z"
   },
   {
-    year: "September, 2025",
+    year: "29 October, 2025",
     description: `PomNet: Diffusion Guided Data Augmentation and Graph Convolution for Enhanced Pomegranate Disease Classification.`,
-    publisher: "IEEE",
-    journal: "IEEE Open Journal of the Computer Society",
+    publisher: "Elsevier",
+    journal: "Journal of Agriculture and Food Research",
     role: "First Author",
     scopus_index: "Q1 | SCImago Index: Q1", 
-    impact_factor: "5.7 | CiteScore: 12.6",
-    submitted_paper: "September, 2025"
+    impact_factor: "6.2 | CiteScore: 7.5",
+    submitted_paper: "29 October, 2025"
   },
 
 ];
