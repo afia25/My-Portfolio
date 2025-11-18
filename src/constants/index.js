@@ -163,7 +163,7 @@ export const AWARDS = [
 
 export const PROJECTS = [
   {
-    title: "CRUD App using React, Node.js, Tailwind CSS, Express & PostgreSQL",
+    title: "CRUD App using React, Node.js, Tailwind CSS, Express.js & PostgreSQL",
     image: project8,
     description:   
       "A CRUD-based web application that allows users to create, view, update, and delete records. It includes functionalities such as data entry forms, dynamic record display, real-time editing, and deletion with confirmation message.",
