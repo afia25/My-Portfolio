@@ -16,7 +16,7 @@ import eclipseImg from "../assets/eclipse.png";
 import { DiGithubBadge } from "react-icons/di";
 import { DiVisualstudio } from "react-icons/di";
 import { DiIntellij } from "react-icons/di";
-import oracleImg from "../assets/oracle.png";
+import sqliteImg from "../assets/sqlite.png";
 
 
 //motion
@@ -227,7 +227,7 @@ const Technologies = () => {
                 <DiIntellij className="text-7xl text-white-400"/>
             </motion.div></a>
             
-            <a href="https://www.oracle.com/database/technologies/appdev/sql.html" target="_blank"
+            <a href="https://sqlite.org/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(2)}
@@ -235,7 +235,7 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4 flex items-center justify-center h-[112px] w-[112px]">  
                 <img 
-                src={oracleImg}
+                src={sqliteImg}
                 className="max-w-[68px] max-h-[64px] object-contain"
                 alt="oracle"
               />    
