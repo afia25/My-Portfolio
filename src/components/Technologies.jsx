@@ -4,11 +4,16 @@ import { BiLogoCPlusPlus } from "react-icons/bi";
 import { DiJava } from "react-icons/di";
 import { DiPython } from "react-icons/di";
 import { DiDjango } from "react-icons/di";
-import { DiAngularSimple } from "react-icons/di";
-import { BsBootstrap } from "react-icons/bs";
-import { DiHtml5 } from "react-icons/di";
-import { DiCss3 } from "react-icons/di";
-import sqliteImg from "../assets/sqlite.png";
+// import { DiAngularSimple } from "react-icons/di";
+// import { BsBootstrap } from "react-icons/bs";
+// import { DiHtml5 } from "react-icons/di";
+// import { DiCss3 } from "react-icons/di";
+// import { SiJavascript } from "react-icons/si";
+import jsImg from "../assets/js.png";
+import { SiReact } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import sqlImg from "../assets/sql.png";
 
 // Tools
 import pycharmImg from "../assets/pycharm.png";
@@ -99,47 +104,51 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiDjango className="text-7xl text-green-400"/>
+                <DiDjango className="text-7xl" style={{ color: '#44B78B' }} />
             </motion.div></a>
 
-            <a href="https://angular.io/" target="_blank"
+            <a href="https://www.w3schools.com/js/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiAngularSimple className="text-7xl text-red-400"/>
+                <img 
+                src={jsImg}
+                className="max-w-[80px] max-h-[75px] object-contain"
+                alt="oracle"
+              />   
             </motion.div></a>
 
-            <a href="https://getbootstrap.com/" target="_blank"
+            <a href="https://react.dev/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <BsBootstrap className="text-7xl text-green-400"/>
+                <SiReact className="text-7xl" style={{ color: '#087ea4' }} />
             </motion.div></a>
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"
+            <a href="https://nodejs.org/en" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiHtml5 className="text-7xl text-orange-400"/>
+                <DiNodejs className="text-7xl" style={{ color: '#66CC33' }} />
             </motion.div></a>
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+            <a href="https://www.geeksforgeeks.org/node-js/express-js/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiCss3 className="text-7xl text-blue-400"/>
+                <SiExpress className="text-7xl text-blue-400"/>
             </motion.div></a>
 
             <a href="https://www.w3schools.com/sql/" target="_blank"
@@ -150,8 +159,8 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <img 
-                src={sqliteImg}
-                className="max-w-[68px] max-h-[64px] object-contain"
+                src={sqlImg}
+                className="max-w-[80px] max-h-[75px] object-contain"
                 alt="oracle"
               />   
             </motion.div></a>
