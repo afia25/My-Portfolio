@@ -8,7 +8,7 @@ import { DiAngularSimple } from "react-icons/di";
 import { BsBootstrap } from "react-icons/bs";
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
-import { DiMysql } from "react-icons/di";
+import sqliteImg from "../assets/sqlite.png";
 
 // Tools
 import pycharmImg from "../assets/pycharm.png";
@@ -142,18 +142,26 @@ const Technologies = () => {
                 <DiCss3 className="text-7xl text-blue-400"/>
             </motion.div></a>
 
-            <a href="https://www.mysql.com/" target="_blank"
+            <a href="https://www.w3schools.com/sql/" target="_blank"
                     rel="noopener noreferrer" className="inline-block">
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiMysql className="text-7xl text-cyan-400"/>
+                <img 
+                src={sqliteImg}
+                className="max-w-[68px] max-h-[64px] object-contain"
+                alt="oracle"
+              />   
             </motion.div></a>
 
         </motion.div>
 
+
+
+
+        
         <motion.h2 
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
